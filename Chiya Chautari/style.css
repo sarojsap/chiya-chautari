@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eef4ed;
+}
+.head{
+    background-color: #FF6B35;
+}
+nav{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+nav ul a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: larger;
+}
+nav ul li a:hover{
+    color: grey;
+}
+.background{
+    padding-bottom: 5px;
+}
+#container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    min-height: 400px;
+
+}
+#container div{
+    height: 370px;
+    width: 400px;
+    margin: 60px;
+    border-radius: 20px;
+    text-align: justify;
+    padding: 20px;
+    background-color: #eef4ed;
+}
+#container p{
+    padding-top: 10px;
+    font-size: larger;
+}
+#container h1{
+    color: #e64833;
+    font-style:oblique;
+}
+#container img{
+    padding-top: 10px;
+    border-radius: 20px;
+}
+#container img1{
+    padding-top: 10px;
+}
+
+footer{
+    background-color: #e64833;
+    width: 100%;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+/*Hover effects on social media icons */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+}
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+@media (max-width:700px){
+    .footerNav ul{
+        flex-direction: column;
+    }
+    .footerNav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
